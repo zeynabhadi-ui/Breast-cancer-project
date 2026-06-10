@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Breast Cancer Medical Education</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f7f9fc;
+        color: #1a1a1a;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        height: 100vh;
+        background: linear-gradient(135deg, #ffe6f0, #ffffff);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin: 0;
+        color: #b30059;
+    }
+
+    header p {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #b30059;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 80px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #b30059;
+        border-left: 5px solid #b30059;
+        padding-left: 10px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .tag {
+        background: #ffe6f0;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: #111;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#intro">Intro</a>
+    <a href="#types">Types</a>
+    <a href="#risk">Risk</a>
+    <a href="#symptoms">Symptoms</a>
+    <a href="#diagnosis">Diagnosis</a>
+    <a href="#treatment">Treatment</a>
+</nav>
+
+<header>
+    <h1>🎗 Breast Cancer</h1>
+    <p>Medical Education Resource</p>
+</header>
+
+<section id="intro">
+    <h2>Introduction</h2>
+    <div class="card">
+        Breast cancer is a malignant tumor arising from breast epithelial cells, most commonly from ducts or lobules. It is characterized by uncontrolled cell growth and the potential to invade or metastasize.
+    </div>
+</section>
+
+<section id="types">
+    <h2>Types</h2>
+    <div class="grid">
+        <div class="tag">IDC</div>
+        <div class="tag">ILC</div>
+        <div class="tag">DCIS</div>
+        <div class="tag">TNBC</div>
+        <div class="tag">HER2+</div>
+        <div class="tag">IBC</div>
+    </div>
+</section>
+
+<section id="risk">
+    <h2>Risk Factors</h2>
+    <div class="card">
+        Age, female sex, BRCA mutations, family history, obesity, alcohol consumption, hormone therapy, and radiation exposure increase risk.
+    </div>
+</section>
+
+<section id="symptoms">
+    <h2>Symptoms</h2>
+    <div class="card">
+        Breast lump, nipple discharge, skin dimpling, breast asymmetry, redness, and lymph node swelling.
+    </div>
+</section>
+
+<section id="diagnosis">
+    <h2>Diagnosis</h2>
+    <div class="card">
+        Mammography, ultrasound, MRI, and biopsy are used for diagnosis. Biopsy remains the gold standard.
+    </div>
+</section>
+
+<section id="treatment">
+    <h2>Treatment</h2>
+    <div class="card">
+        Surgery, chemotherapy, radiotherapy, hormone therapy, targeted therapy, and immunotherapy are used depending on stage and subtype.
+    </div>
+</section>
+
+<footer>
+    © 2026 Breast Cancer Medical Project
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breast Cancer Medical Project</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    color: #1a1a1a;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe6f0, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #b30059;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #b30059;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #b30059;
+    border-left: 5px solid #b30059;
+    padding-left: 10px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.pathway {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.node {
+    background: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: 0.2s;
+    min-width: 200px;
+    text-align: center;
+}
+
+.node:hover {
+    transform: scale(1.05);
+    border: 2px solid #b30059;
+}
+
+.arrow {
+    color: #b30059;
+    font-size: 18px;
+}
+
+.infoBox {
+    margin-top: 25px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#intro">Intro</a>
+<a href="#types">Types</a>
+<a href="#risk">Risk</a>
+<a href="#pathway">Pathway</a>
+<a href="#treatment">Treatment</a>
+</nav>
+
+<header>
+<h1>🎗 Breast Cancer</h1>
+<p>Medical Education Project</p>
+</header>
+
+<section id="intro">
+<h2>Introduction</h2>
+<div class="card">
+Breast cancer is a malignant tumor that starts in breast cells and can spread to other parts of the body.
+It is the most common cancer in women worldwide.
+</div>
+</section>
+
+<section id="types">
+<h2>Types</h2>
+<div class="card">
+IDC, ILC, DCIS, HER2-positive, Triple-negative, Inflammatory breast cancer.
+</div>
+</section>
+
+<section id="risk">
+<h2>Risk Factors</h2>
+<div class="card">
+Age, genetics (BRCA1/2), obesity, alcohol, hormones, radiation exposure.
+</div>
+</section>
+
+<section id="pathway">
+<h2>Interactive Cancer Pathway</h2>
+
+<div class="pathway">
+
+<div class="node" onclick="showInfo('mutation')">Cell Mutation</div>
+<div class="arrow">↓</div>
+
+<div class="node" onclick="showInfo('dcis')">DCIS (Stage 0)</div>
+<div class="arrow">↓</div>
+
+<div class="node" onclick="showInfo('invasive')">Invasive Cancer</div>
+<div class="arrow">↓</div>
+
+<div class="node" onclick="showInfo('nodes')">Lymph Node Spread</div>
+<div class="arrow">↓</div>
+
+<div class="node" onclick="showInfo('meta')">Metastasis</div>
+<div class="arrow">↓</div>
+
+<div class="node" onclick="showInfo('treatment')">Treatment</div>
+
+</div>
+
+<div class="infoBox" id="infoBox">
+Click a stage to see explanation
+</div>
+
+</section>
+
+<section id="treatment">
+<h2>Treatment</h2>
+<div class="card">
+Surgery, chemotherapy, radiotherapy, hormone therapy, targeted therapy, immunotherapy.
+</div>
+</section>
+
+<footer>
+© 2026 Breast Cancer Project
+</footer>
+
+<script>
+function showInfo(stage) {
+
+let info = {
+mutation: "Genetic mutations start uncontrolled cell growth.",
+dcis: "Abnormal cells stay inside ducts (non-invasive stage).",
+invasive: "Cancer spreads into surrounding breast tissue.",
+nodes: "Cancer reaches lymph nodes.",
+meta: "Cancer spreads to distant organs.",
+treatment: "Treat
+
+ment depends on stage: surgery, chemo, radiation, targeted therapy."
+};
+
+document.getElementById("infoBox").innerText = info[stage];
+}
+</script>
+
+</body>
+</html>
